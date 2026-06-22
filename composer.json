@@ -1,0 +1,30 @@
+{
+    "name": "corentinbessire/dagda-dither",
+    "description": "A configurable dithering and color-reduction image effect for Drupal, powered by ImageMagick.",
+    "type": "drupal-module",
+    "keywords": [
+        "Drupal",
+        "image",
+        "image style",
+        "image effect",
+        "imagemagick",
+        "dither",
+        "dithering"
+    ],
+    "homepage": "https://github.com/corentinbessire/dagda-dither",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Corentin Bessire",
+            "homepage": "https://github.com/corentinbessire"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/corentinbessire/dagda-dither/issues",
+        "source": "https://github.com/corentinbessire/dagda-dither"
+    },
+    "require": {
+        "php": ">=8.3",
+        "drupal/imagemagick": "^3.7 || ^4.0"
+    }
+}

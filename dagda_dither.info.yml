@@ -1,0 +1,8 @@
+name: 'Dagda Dither'
+type: module
+description: 'Provides a dithering image effect and ImageMagick toolkit operation for the Dagda website.'
+package: Dagda
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:image
+  - imagemagick:imagemagick
